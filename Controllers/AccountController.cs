@@ -71,6 +71,7 @@ namespace MvcMovie.Controllers
             if (!ModelState.IsValid)
             {
                 return View(model);
+                //return RedirectResult(Movies);
             }
 
             // 这不会计入到为执行帐户锁定而统计的登录失败次数中
@@ -89,6 +90,11 @@ namespace MvcMovie.Controllers
                     ModelState.AddModelError("", "无效的登录尝试。");
                     return View(model);
             }
+        }
+
+        private ActionResult RedirectResult(char v)
+        {
+            throw new NotImplementedException();
         }
 
         //
