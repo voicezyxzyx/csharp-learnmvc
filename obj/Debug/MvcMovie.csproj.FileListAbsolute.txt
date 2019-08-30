@@ -115,3 +115,6 @@ E:\C# code\MyFirstWeb\MyFirstWeb\MvcMovie\obj\Debug\MvcMovie.csproj.CoreCompileI
 E:\C# code\MyFirstWeb\MyFirstWeb\MvcMovie\obj\Debug\MvcMovie.csproj.CopyComplete
 E:\C# code\MyFirstWeb\MyFirstWeb\MvcMovie\obj\Debug\MvcMovie.dll
 E:\C# code\MyFirstWeb\MyFirstWeb\MvcMovie\obj\Debug\MvcMovie.pdb
+E:\C# code\MyFirstWeb\MyFirstWeb\MvcMovie\obj\Debug\MvcMovie.Migrations.nezha.resources
+E:\C# code\MyFirstWeb\MyFirstWeb\MvcMovie\obj\Debug\MvcMovie.csproj.GenerateResource.cache
+E:\C# code\MyFirstWeb\MyFirstWeb\MvcMovie\obj\Debug\MvcMovie.Migrations.movies.resources

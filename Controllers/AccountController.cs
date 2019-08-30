@@ -422,7 +422,7 @@ namespace MvcMovie.Controllers
 
             base.Dispose(disposing);
         }
-
+    
         #region 帮助程序
         // 用于在添加外部登录名时提供 XSRF 保护
         private const string XsrfKey = "XsrfId";

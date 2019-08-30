@@ -5,9 +5,12 @@ using System.Web;
 using System.Web.Mvc;
 
 namespace MvcMovie.Controllers
+
 {
+[Authorize]
     public class HomeController : Controller
     {
+        [AllowAnonymous]
         public ActionResult Index()
         {
             return View();
@@ -15,6 +18,7 @@ namespace MvcMovie.Controllers
 
         public ActionResult About()
         {
+            
             ViewBag.Message = "Your application description page.";
 
             return View();
