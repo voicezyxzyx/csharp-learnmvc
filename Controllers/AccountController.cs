@@ -58,6 +58,7 @@ namespace MvcMovie.Controllers
         public ActionResult Login(string returnUrl)
         {
             ViewBag.ReturnUrl = returnUrl;
+            
             return View();
         }
 
@@ -69,9 +70,8 @@ namespace MvcMovie.Controllers
         public async Task<ActionResult> Login(LoginViewModel model, string returnUrl)
         {
             if (!ModelState.IsValid)
-            {
+            {       
                 return View(model);
-                //return RedirectResult(Movies);
             }
 
             // 这不会计入到为执行帐户锁定而统计的登录失败次数中
